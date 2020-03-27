@@ -1,4 +1,5 @@
 # Major idea for implementing diagonals code as mentioned here: https://www.coursera.org/learn/what-is-a-proof/discussions/weeks/2/threads/x1n3gUoDEemkThIF0dHxlg
+
 # Implement check_if_Diag_can_be_extended function definition here.
 
 def extend(Diag, n, arr):
