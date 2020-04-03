@@ -16,7 +16,7 @@ public:
         map<int, int> array_element;
         int pres_value = extractDigitsAndSquareThem(n);
         
-        do{
+        while(array_element.find(pres_value) == array_element.end() ){
             
             array_element[pres_value] = 1;
             if(pres_value == 1){
@@ -24,7 +24,7 @@ public:
             }
             pres_value = extractDigitsAndSquareThem(pres_value);
             
-        }while(array_element.find(pres_value) == array_element.end() );
+        }
         
         return false;
     }
